@@ -25,9 +25,6 @@ class ListAllUsersUseCase {
 
     const users = this.usersRepository.list();
 
-    console.log("LIST USECASE");
-    console.log(users);
-
     return users;
   }
 }
